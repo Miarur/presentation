@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" />
+    <link rel="stylesheet" href="dist/index.css" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h2>Serverless Computing</h2>
+          <ol>
+            <li>Deployment models</li>
+            <li>FaaS</li>
+            <li>Benefits of Serverless Computing</li>
+          </ol>
+        </section>
+
+        <section>
+          Deployment models
+          <section class="slide2">
+            <img src="./examples/assets/img1.png" alt="1" />
+          </section>
+          <section class="slide2">
+            <img src="./examples/assets/img2.png" alt="2" />
+          </section>
+          <section class="slide2">
+            <img src="./examples/assets/img3.png" alt="3" />
+          </section>
+          <section class="slide2">
+            <img src="./examples/assets/img4.png" alt="4" />
+          </section>
+        </section>
+        <section>
+
+					<section>
+						<p>
+							All of the major cloud providers have this Functions as a Service
+						</p>
+						<img src="./examples/assets/faasmain.png" alt="">
+					</section>
+					<section>
+						FaaS - Function as a Service
+						<p>
+							This is essentially a computer platform for serverless where you run your functions.
+						</p>
+					</section>
+
+
+					<section class="slide3">
+						<p>FaaS</p>
+						<ul>
+							<li>Functions</li>
+							<li>Events</li>
+							<li>Events</li>
+							<li>EDA</li>
+						</ul>
+					</section>
+
+					<section>
+						<p>How work FaaS?</p>
+					</section>
+
+					<section>
+						<img src="./examples/assets/faas1.png" alt="1">
+					</section>
+
+					<section>
+						<img src="./examples/assets/faas2.png" alt="2">
+					</section>
+
+					<section>
+						<img src="./examples/assets/faas3.png" alt="3">
+					</section>
+
+					<section>
+						<img src="./examples/assets/faas4.png" alt="4">
+					</section>
+
+					<section>
+						<img src="./examples/assets/faas5.png" alt="5">
+					</section>
+        </section>
+
+				<section>
+					<h3>Benefits</h3>
+					<section>
+						<p>1) You pay for execution only.</p>
+						<p>2) Auto scalable</p>
+						<p>3) Faster time to market</p>
+						<p>4) Polyglot environment</p>
+						<p>5) All of the serverless apps are highly available</p>
+					</section>
+				</section>
+
+				<section>
+					<h3>Cons of serverless computing</h3>
+					<section>
+						<p>1) Security issues</p>
+						<p>2) Vendor lock-in</p>
+						<p>3) Debugging is more difficult</p>
+					</section>
+				</section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
+</html>
